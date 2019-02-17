@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="regScene" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="710.0" style="-fx-background-color: #fffffff;" styleClass="background" stylesheets="@../styles/regScene.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegistrationSceneController">
+   <children>
+      <HBox layoutX="178.0" layoutY="295.0" prefHeight="35.0" prefWidth="350.0" spacing="30.0" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="295.0">
+         <children>
+            <Button fx:id="buttonCancel" mnemonicParsing="false" prefHeight="40.0" prefWidth="102.0" text="Отмена" textAlignment="CENTER" textFill="#6e0000">
+               <font>
+                  <Font name="Engravers MT" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonRegistrate" mnemonicParsing="false" prefHeight="35.0" prefWidth="218.0" text="Зарегистрироваться" textFill="#6f0000">
+               <font>
+                  <Font name="Engravers MT" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <TextField fx:id="loginField" layoutX="184.0" layoutY="181.0" prefHeight="39.0" prefWidth="350.0" promptText="Введите новый логин" styleClass="input" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="167.0" />
+      <PasswordField fx:id="passwordField" layoutX="183.0" layoutY="249.0" prefHeight="39.0" prefWidth="350.0" promptText="Введите новый пароль" styleClass="input" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="232.0" />
+      <Text layoutX="290.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация" AnchorPane.topAnchor="120.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="103.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логин" AnchorPane.rightAnchor="545.0" AnchorPane.topAnchor="176.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="84.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль" AnchorPane.rightAnchor="545.0" AnchorPane.topAnchor="238.576171875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Hyperlink fx:id="linkLogin" layoutX="245.0" layoutY="347.0" prefHeight="44.0" prefWidth="163.0" text="Вернуться к Входу" textFill="#ff9f9f" underline="true" AnchorPane.leftAnchor="245.0" AnchorPane.rightAnchor="302.0" AnchorPane.topAnchor="347.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Hyperlink>
+      <ImageView fitHeight="45.0" fitWidth="47.0" layoutX="418.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="345.0">
+         <image>
+            <Image url="@../assets/penAndPaper.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

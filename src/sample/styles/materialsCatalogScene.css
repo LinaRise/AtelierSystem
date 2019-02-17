@@ -1,0 +1,48 @@
+.background{
+    -fx-background-image:url(../assets/backMaterial.jpg);
+    -fx-background-size:cover,cover;
+    -fx-background-position:center center;
+    -fx-background-repeat:stretch;
+}
+#helpButton{
+    -fx-background-image:url(../assets/helpButton.png);
+    -fx-background-size:cover,cover;
+
+}
+
+
+#menuBtn{
+    -fx-background-image:url(../assets/menuIcon.png);
+    -fx-background-size:contain,cover;
+    -fx-background-repeat:stretch;
+    -fx-background-position:center center;
+}
+
+#orderCatBtn{
+    -fx-background-image:url(../assets/orders.png);
+    -fx-background-size:contain,cover;
+    -fx-background-position:center center;
+    -fx-background-repeat:stretch;
+
+}
+
+#newOrderBtn{
+    -fx-background-image:url(../assets/order.png);
+    -fx-background-size:contain,cover;
+    -fx-background-repeat:stretch;
+    -fx-background-position:center center;
+
+}
+
+#matTable,#pane2{
+
+    -fx-background-color: rgba(214, 134, 147, 0.5);
+
+}
+
+
+
+.button{
+    -fx-background-color: #ffffff;
+    -fx-border-color: #6F0000;
+}

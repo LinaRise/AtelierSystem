@@ -1,0 +1,13 @@
+.background{
+    -fx-background-color: rgba(116, 20, 26, 0.11);
+}
+.input{
+    -fx-font-size: 12px;
+    -fx-text-fill:#000000;
+    -fx-background-color: rgba(111,0,0,0.2);
+}
+
+.button{
+    -fx-background-color: #ffffff;
+    -fx-border-color: #6F0000;
+}

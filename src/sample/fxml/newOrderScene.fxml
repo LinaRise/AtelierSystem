@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="newOrderScene" maxHeight="0.0" maxWidth="0.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" styleClass="background" stylesheets="@../styles/newOrderScene.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NewOrderSceneController">
+   <children>
+      <VBox layoutX="184.0" layoutY="184.0" prefHeight="209.0" prefWidth="183.0" spacing="40.0">
+         <children>
+            <TextField fx:id="fioField" onKeyTyped="#fioTyped" styleClass="input" />
+            <TextField fx:id="telephoneField" onKeyTyped="#phoneTyped" prefHeight="25.0" prefWidth="85.0" styleClass="input" />
+            <TextArea fx:id="orderField" prefHeight="69.0" prefWidth="183.0" stylesheets="@../styles/newOrderScene.css" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </VBox>
+      <VBox layoutX="547.0" layoutY="184.0" prefHeight="164.0" prefWidth="193.0" spacing="40.0">
+         <children>
+            <TextField fx:id="measuresField" styleClass="input" />
+            <ComboBox fx:id="stateBox" prefHeight="25.0" prefWidth="195.0" styleClass="check-box" />
+            <TextField fx:id="costField" onKeyTyped="#costTyped" prefHeight="19.0" prefWidth="165.0" styleClass="input" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </VBox>
+      <Text layoutX="453.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Стоимость">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="105.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Телефон">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ФИО">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="124.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Заказ" wrappingWidth="47.859370708465576">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="483.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Мерки">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="480.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Статус">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <HBox layoutX="286.0" layoutY="428.0" prefHeight="60.0" prefWidth="324.0" spacing="100.0">
+         <children>
+            <Button fx:id="saveButton" mnemonicParsing="false" prefHeight="42.0" prefWidth="115.0" text="Сохранить">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelButton" mnemonicParsing="false" prefHeight="42.0" prefWidth="115.0" text="Отмена">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="705.0" layoutY="446.0" prefHeight="31.0" prefWidth="126.0" spacing="4.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="10.0">
+         <children>
+            <Button fx:id="materialsBtn" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" />
+            <Button fx:id="orderCatBtn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" />
+            <Button fx:id="menuBtn" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" />
+         </children>
+      </HBox>
+      <Hyperlink fx:id="pickMaterials" layoutX="546.0" layoutY="373.0" text="Выбрать материалы для заказа" underline="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

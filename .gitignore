@@ -1,0 +1,63 @@
+
+# Created by .ignore support plugin (hsz.mobi)
+
+ /out
+ *.png
+ *.jpg
+ *.txt
+.idea
+assets
+.classpath
+.project
+Atelier.eml
+Atelier/
+Diagram.ucls
+Instruction.docx
+bin/META-INF/
+bin/sample/AdminSceneController.class
+bin/sample/AnimationAndDecor/
+bin/sample/Client.class
+bin/sample/EditWMaterialSceneController.class
+bin/sample/LoginSceneController.class
+bin/sample/Main.class
+bin/sample/MainMenuSceneController.class
+bin/sample/Material.class
+bin/sample/MaterialsSceneWorkerController.class
+bin/sample/NewOrderSceneController.class
+bin/sample/Order.class
+bin/sample/OrdersCatSceneW.class
+bin/sample/OrdersEditScene.class
+bin/sample/PickMaterialsController.class
+bin/sample/RegistrationSceneController.class
+bin/sample/User.class
+bin/sample/fxml/
+bin/sample/styles/
+clients.txt
+logPass.txt
+material.txt
+orderTemp.txt
+orders.txt
+out/artifacts/
+out/production/Atelier/META-INF/
+out/production/Atelier/sample/AdminSceneController.class
+out/production/Atelier/sample/AnimationAndDecor/
+out/production/Atelier/sample/Client.class
+out/production/Atelier/sample/EditWMaterialSceneController.class
+out/production/Atelier/sample/LoginSceneController.class
+out/production/Atelier/sample/Main.class
+out/production/Atelier/sample/MainMenuSceneController.class
+out/production/Atelier/sample/Material.class
+out/production/Atelier/sample/MaterialsSceneWorkerController.class
+out/production/Atelier/sample/NewOrderSceneController.class
+out/production/Atelier/sample/Order.class
+out/production/Atelier/sample/OrdersCatSceneW.class
+out/production/Atelier/sample/OrdersEditScene.class
+out/production/Atelier/sample/PickMaterialsController.class
+out/production/Atelier/sample/RegistrationSceneController.class
+out/production/Atelier/sample/User.class
+out/production/Atelier/sample/fxml/
+out/production/Atelier/sample/styles/
+
+temp.txt
+~$struction.docx
+~WRL2487.tmp

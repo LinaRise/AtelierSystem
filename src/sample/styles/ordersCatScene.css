@@ -1,0 +1,36 @@
+#searchImg{
+    -fx-background-image:url(../assets/searchButton.png);
+
+}
+#ordersScene{
+    -fx-background-color: rgba(214, 134, 147,0.8);
+}
+#pane{
+    -fx-background-color: rgba(214, 134, 147, 0.5);
+}
+
+#menuBtn{
+    -fx-background-image:url(../assets/menuIcon.png);
+    -fx-background-size:contain,cover;
+    -fx-background-repeat:stretch;
+    -fx-background-position:center center;
+}
+
+#materialsBtn{
+    -fx-background-image:url(../assets/materials2.png);
+    -fx-background-size:cover,cover;
+
+}
+
+#newOrderBtn{
+    -fx-background-image:url(../assets/order.png);
+    -fx-background-size:contain,cover;
+    -fx-background-repeat:stretch;
+    -fx-background-position:center center;
+
+}
+
+.button{
+    -fx-background-color: #ffffff;
+    -fx-border-color: #6F0000;
+}

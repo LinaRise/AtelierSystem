@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="872.0" stylesheets="@../styles/adminScene.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminSceneController">
+   <center>
+      <TabPane fx:id="tabPane" prefHeight="450.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+          <Tab fx:id="ordersTab" text="Заказы">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="450.0" prefWidth="800.0" />
+            </content>
+          </Tab>
+          <Tab fx:id="materialsTab" text="Материалы">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </TabPane>
+   </center>
+   <top>
+      <MenuBar fx:id="menuBar" stylesheets="@../styles/adminScene.css" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Заказы">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#selectOrderTab" text="Посмотреть каталог заказов" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Материалы">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#selectMaterialTab" text="Посмотреть каталог материалов" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Помощь">
+            <items>
+              <MenuItem fx:id="instructionBtn" mnemonicParsing="false" text="Инструкция" />
+                  <MenuItem fx:id="aboutProgramBtn" mnemonicParsing="false" text="О программе" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

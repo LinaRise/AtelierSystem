@@ -1,0 +1,25 @@
+.input{
+    -fx-font-size: 18px;
+    -fx-text-fill:#000000;
+    -fx-background-color: rgba(111,0,0,0.2);
+}
+
+.background{
+    -fx-background-image:url(../assets/logScene.png);
+    -fx-background-size:contain,cover;
+    -fx-background-position:center center;
+    -fx-background-repeat:stretch;
+}
+
+.button{
+    -fx-background-color: #ffffff;
+    -fx-border-color: #6F0000;
+}
+#helpBtn{
+    -fx-background-image:url(../assets/infoBtn.png);
+    -fx-background-size:contain,cover;
+    -fx-background-position:center center;
+    -fx-background-repeat:stretch;
+    -fx-border-color: #ffffff;
+}
+

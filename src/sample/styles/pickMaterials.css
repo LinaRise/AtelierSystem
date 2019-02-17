@@ -1,0 +1,8 @@
+.button{
+    -fx-background-color: #ffffff;
+    -fx-border-color: #6F0000;
+}
+#matTable,#pane{
+    -fx-background-color: rgba(214, 134, 147, 0.5);
+    -fx-border-color: #6F0000;
+}

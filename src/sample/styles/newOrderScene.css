@@ -1,0 +1,64 @@
+.background{
+    -fx-background-image:url(../assets/newOrderBack1.jpg);
+    -fx-background-size:contain,cover;
+    -fx-background-position:center center;
+    -fx-background-repeat:stretch;
+}
+.input{
+    -fx-font-size: 14px;
+    -fx-text-fill:#000000;
+    -fx-background-color: rgba(111,0,0,0.2);
+    -fx-border-color: #6F0000;
+    -fx-border-radius:3px;
+
+
+}
+
+
+#menuBtn{
+    -fx-background-image:url(../assets/menuIcon.png);
+    -fx-background-size:contain,cover;
+    -fx-background-repeat:stretch;
+    -fx-background-position:center center;
+}
+
+#materialsBtn{
+    -fx-background-image:url(../assets/materials2.png);
+    -fx-background-size:contain,cover;
+
+}
+
+#orderCatBtn{
+    -fx-background-image:url(../assets/orders.png);
+    -fx-background-size:contain,cover;
+    -fx-background-position:center center;
+    -fx-background-repeat:stretch;
+
+}
+
+
+.check-box {
+    -fx-background-color:rgba(111,0,0,0.2);
+    -fx-border-color: #6F0000;
+    -fx-border-radius:3px;
+}
+.hyperlink{
+    -fx-text-fill:#6F0000;
+}
+
+.text-area{
+    -fx-border-color: #6F0000;
+    -fx-border-radius:3px;
+}
+.text-area .content {
+    -fx-background-color: rgba(111,0,0,0.2);
+}
+
+.button{
+    -fx-background-color: #ffffff;
+    -fx-border-color: #6F0000;
+}
+
+
+
+

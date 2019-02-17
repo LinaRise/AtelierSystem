@@ -1,0 +1,23 @@
+.background{
+-fx-background-image:url(../assets/mainMenu.png);
+-fx-background-size:contain,cover;
+-fx-background-position:center center;
+-fx-background-repeat:stretch;
+}
+
+.button{//задаем стиль кнопок
+    -fx-background-color: rgb(255, 198, 195);/*цвет фона */
+    -fx-border-color: #6F0000;/*цвет рамки */
+    -fx-text-fill: #000000;/*цвет текста */
+}
+
+#helpBtn{
+    -fx-background-image:url(../assets/infoBtn.png);
+    -fx-background-size:contain,cover;
+    -fx-background-position:center center;
+    -fx-background-repeat:stretch;
+    -fx-border-color: #ffffff;
+    -fx-background-color: #ffffff;
+
+}
+
